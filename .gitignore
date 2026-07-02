@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime storage
+spy_documents/*
+secure_storage/*
+documents/*
+!spy_documents/.gitkeep
+!secure_storage/.gitkeep
+!documents/.gitkeep
+
+# Databases, users, logs, encrypted files
+*.db
+*.sqlite
+*.sqlite3
+users.json
+logs.txt
+*.log
+*.chessvault
+
+# Secrets / keys
+.env
+*.key
+*.pem
+*_recovery_key.txt
+*_moves.txt
+*move_sequence*.txt
+*chess_key*.txt
+recovery_keys/
