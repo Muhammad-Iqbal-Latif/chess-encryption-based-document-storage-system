@@ -1,14 +1,4 @@
-"""Citadel Document Vault
-
-Hybrid version for Fedora/Python 3.14.
-
-Main application responsibilities:
-- User/admin login and registration
-- RSA key-pair management for each user
-- Document listing and access control
-- Launching the chess + AES hybrid encryption window
-- Admin logs and delete controls
-"""
+##main-file##
 
 from __future__ import annotations
 
