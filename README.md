@@ -1,4 +1,4 @@
-# Chess-Based Secure Document Storage System
+# Chess Encryption Based Document Storage System
 
 A Python GUI project for secure document storage using chess-derived AES encryption and hybrid RSA key sharing.
 
