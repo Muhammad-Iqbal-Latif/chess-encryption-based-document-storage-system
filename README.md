@@ -15,7 +15,7 @@ Document
 → AES key encrypted with recipient's RSA public key
 → Receiver decrypts AES key with their private key
 → Receiver decrypts document
-
+```
 
 ## Features
 
@@ -36,13 +36,13 @@ Document
 ```bash
 python3 -m pip install --user --no-cache-dir --timeout 300 -r requirements.txt
 
-
+```
 ## Run
 
 ```bash
 python3 main.py
 
-
+```
 ## Default admin
 
 ```text
@@ -50,7 +50,7 @@ username: admin
 password: admin123
 role: admin
 
-
+```
 ## Security note
 
 The `.chessvault` file contains encrypted document data and an RSA-encrypted copy of the AES key for each recipient. It does not store the plaintext document or the plaintext AES key.
