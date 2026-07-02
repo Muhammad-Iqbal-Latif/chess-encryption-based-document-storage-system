@@ -1,15 +1,4 @@
-"""Chess + hybrid AES document encryption window.
-
-Hybrid design used by this version:
-1. The sender creates chess moves or enters a chess-style key phrase.
-2. That chess material is mixed with secure random bytes to create a per-file AES-256 key.
-3. The document is encrypted with AES-256-GCM.
-4. The AES key is encrypted for each recipient using their RSA public key.
-5. The receiver decrypts the AES key with their RSA private key, then decrypts the document.
-
-This means the chess sequence is used during encryption, but it does not need to be
-shared manually with the receiver. The receiver only needs their own account/private key.
-"""
+###chess-encryption-file###
 
 from __future__ import annotations
 
