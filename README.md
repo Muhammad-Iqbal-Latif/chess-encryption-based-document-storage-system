@@ -35,7 +35,7 @@
   <a href="#limitations">Limitations</a>
 </p>
 
----
+
 
 ## Overview
 
@@ -291,15 +291,6 @@ The `.gitignore` file should keep runtime and sensitive data out of the reposito
 - Multi-user sharing without resending the moves file.
 - Optional export of a concise project report from the app itself.
 
-## Screenshots
-
-Add your own screenshots here if you want the repository page to look more complete.
-
-```md
-![Dashboard](assets/screenshots/dashboard.png)
-![Encrypt flow](assets/screenshots/encrypt-flow.png)
-![Decrypt flow](assets/screenshots/decrypt-flow.png)
-```
 
 ## Contributing
 
@@ -311,9 +302,6 @@ Pull requests are welcome. Keep changes focused, readable, and aligned with the 
 4. Test the application.
 5. Submit a pull request.
 
-## License
-
-Add your license here if the repository already includes one. If not, include a `LICENSE` file before publishing publicly.
 
 ## Author
 
@@ -331,7 +319,7 @@ version 1.0.0 | Python 3.11+ | MIT License | Active | PRs welcome
            Concept • Why Chess? • How It Works • Features •
                Quick Start • Security • Limitations
 
-===========================================================================
+
 
 CONCEPT
 -------
@@ -341,7 +329,7 @@ moves are canonicalised, run through PBKDF2, and used to derive the key
 that encrypts the document. To unlock it, someone must replay the exact
 same game in the correct order.
 
-===========================================================================
+
 
 WHY A CHESS BOARD?
 ------------------
@@ -360,7 +348,6 @@ sequence of decisions, as long as both sides can recreate it exactly.
 Note: See LIMITATIONS section for where the idea holds up and where it
 doesn't.
 
-===========================================================================
 
 HOW ENCRYPTION WORKS
 --------------------
@@ -411,7 +398,7 @@ Key point: The move sequence is the secret. The .chessvault file alone
 decrypts nothing. Share the .chessvault and moves.txt files over different
 channels.
 
-===========================================================================
+
 
 FEATURES
 --------
@@ -439,7 +426,7 @@ FEATURES
 |                      | the original plaintext, independent of Fernet's   |
 |                      | own authentication.                               |
 
-===========================================================================
+
 
 TECH STACK
 ----------
@@ -490,7 +477,7 @@ Installation:
 On first launch, ChessVault creates spy_documents/, initialises the SQLite
 database, and seeds a default admin account (see below).
 
-===========================================================================
+
 
 DEFAULT ADMIN ACCOUNT
 ---------------------
@@ -501,7 +488,7 @@ Role:     admin
 Important: Change the password or recreate the account before using
 ChessVault with real data. The seeded credentials are not secret.
 
-===========================================================================
+
 
 USAGE
 -----
@@ -520,7 +507,7 @@ Receiving a Document
 Vault cards also offer Export (copy the raw .chessvault container) and,
 for admins, Delete.
 
-===========================================================================
+
 
 SECURITY DESIGN
 ---------------
