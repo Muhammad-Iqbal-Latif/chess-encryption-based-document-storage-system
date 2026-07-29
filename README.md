@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/svg?font=Fira+Code&size=20&pause=1200&color=38D6D0&center=true&vCenter=true&width=680&lines=Encrypt+documents+with+legal+chess+games;PBKDF2+%2B+Fernet+%2B+full+move+validation;A+Cyber+Security+final-year+project+by+Iqbal" alt="Typing SVG banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=38D6D0&center=true&vCenter=true&random=false&width=900&height=60&lines=♜+ChessVault;Encrypt+Documents+Using+Legal+Chess+Games;PBKDF2+%2B+Fernet+Encryption;Cyber+Security+Final+Year+Project;Designed+and+Developed+by+Muhammad+Iqbal" />
 </p>
 
 <p align="center">
